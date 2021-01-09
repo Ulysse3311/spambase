@@ -18,4 +18,4 @@ data from https://archive.ics.uci.edu/ml/datasets/Spambase
 * open a termimal and go to the directory 
 * run the virtual env, type in the termimal : `venv\Scripts\activate`
 * run the api, type in the terminal : `python api.py` , the api is now running on http://127.0.0.1:5000/
-* to test sample request to the api, run in another terminal : `request.py`
+* to test sample request to the api, run in another terminal :  `python request.py`
