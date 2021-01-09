@@ -1,14 +1,14 @@
 ## spambase
-Classification of spam emails using Python on the Spambase Data Set.
-Final project for the Python For Data Analysis at ESILV
-In collaboration with Tristan Darrigol (https://github.com/UnicornRules)
+Classification of spam emails using Python on the Spambase Data Set. <br>
+Final project for the Python For Data Analysis at ESILV <br>
+In collaboration with Tristan Darrigol (https://github.com/UnicornRules) <br>
 
 ## Dataset :
 data from https://archive.ics.uci.edu/ml/datasets/Spambase
-Task : classification of spam emails (2 class)
-Number of attributes : 57
-Attributes type : float
-Number of instances : 4601
+* Task : classification of spam emails (2 class)
+* Number of attributes : 57
+* Attributes type : float
+* Number of instances : 4601
 
 ## Machine Learning solution :
 
