@@ -14,12 +14,17 @@ import pandas as pd
 """
 Request to the api must have the following format :
 either :
-data = [1,[xi]*57]
-with every xi corresponding to a columns
+data = [1,[X1,X2,...] = [1,[[x1i]*57,[x2i]*57,...]
+with every xni corresponding to a columns of Xn
 or :
-data = [0,"raw email text"]
+data = [0,["raw email text 1","raw email text 2",... ]]
 
-data[0] is a flag to know if the data is a row email or a vector 
+data[0] is a flag to know if the data is a row emails or a vector :
+data[0]=0 if it is a list of raw emails, data[0]=1 if it is a list of vector compatible with the model
+
+The api will return data in the following format :
+[p1,p2,...]
+with pn the prediction for the n th element
 """
 
 
