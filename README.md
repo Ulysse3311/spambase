@@ -23,6 +23,7 @@ data from https://archive.ics.uci.edu/ml/datasets/Spambase
   * Gradient Boosting Classifier
   * Adaptative Boosting Classifier
   * Support Vector Machine Classifier
+  <br>
   Before tuning the best precision we had was of 96.6%
   <br>
   After tuning, we obtained a precision of 99% using Random Forest Classifier
