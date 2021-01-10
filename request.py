@@ -12,10 +12,10 @@ import json
 
 def send_request(data):
     j_data = json.dumps(data)
-    print(j_data)
+    print("SENDING :\n",j_data)
     headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
     r = requests.post(url, data=j_data, headers=headers)
-    print(r, r.text)
+    print("ANSWER :\n",r, r.text)
 
 def send_zeros(): #send a vector of 0
     line = [[0] * 57]
@@ -41,6 +41,11 @@ def send_raw_emails():
 
 if __name__=="__main__":
     url = 'http://127.0.0.1:5000/api'
+    input("\nPress ENTER to launch the first request (vector of 0)")
     send_zeros()
+    input("\nPress ENTER to launch the next request (first line from the dataset)")
     send_first_mail()
+    input("\nPress ENTER to launch the last request (2 emails)")
     send_raw_emails()
+    print ("\nEnd of demo requests, press ENTER to exit")
+
