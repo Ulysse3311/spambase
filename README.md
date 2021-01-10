@@ -3,7 +3,8 @@ Classification of spam emails using Python on the Spambase Data Set. <br>
 Final project for the Python For Data Analysis at ESILV <br>
 In collaboration with Tristan Darrigol (https://github.com/UnicornRules) <br>
 <br>
-#### To have a quick overview of the project : SPAMBASE.pdf
+#### To take a look at  the assignment : devoir_python_for_data_analysis.pdf
+#### To have a quick overview of the project : SpamBase_Berthet_Darrigol.pdf
 #### To see our data exploration : data_exploration.ipynb
 #### To see how we build the model : data_classification.ipynb
 
