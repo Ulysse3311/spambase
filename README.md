@@ -15,7 +15,16 @@ data from https://archive.ics.uci.edu/ml/datasets/Spambase
 * Number of instances : 4601
 
 ## Machine Learning solution :
-
+  We chose precision as our main metrics, in order to optimize our "positive" prediction 
+  <br>
+  We then tried 10 differents models, and then focused on : 
+  * Random Forest Classifier
+  * Gradient Boosting Classifier
+  * Adaptative Boosting Classifier
+  * Support Vector Machine Classifier
+  Before tuning the best precision we had was of 96.6%
+  <br>
+  After tuning, we obtained a precision of 99% using Random Forest Classifier
 
 ## How to set it up
 * download : api.py, finalized_model.zip (and unzip), venv, request.py
