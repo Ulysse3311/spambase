@@ -17,7 +17,7 @@ def send_request(data):
     r = requests.post(url, data=j_data, headers=headers)
     print(r, r.text)
 
-def send_zeros(): #send a vector 0
+def send_zeros(): #send a vector of 0
     line = [[0] * 57]
     data = [1, line]
     send_request(data)
